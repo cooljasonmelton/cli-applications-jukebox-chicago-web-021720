@@ -53,6 +53,7 @@ def run(songs)
   puts "Please enter a command:"
   input = nil
   until input == "exit" do
+    input = gets.strip
   end 
   exit_jukebox
 end 
