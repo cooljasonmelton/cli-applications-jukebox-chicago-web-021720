@@ -54,6 +54,9 @@ def run(songs)
   input = nil
   until input == "exit" do
     input = gets.strip
+    if input == "help"
+      help
+    end 
   end 
   exit_jukebox
 end 
